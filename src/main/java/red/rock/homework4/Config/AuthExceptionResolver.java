@@ -1,6 +1,8 @@
 package red.rock.homework4.Config;
 
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
@@ -18,14 +20,18 @@ import java.util.Map;
  * @version 1.0
  **/
 
-public class AuthExceptionResolver implements HandlerExceptionResolver {
+@ControllerAdvice
+public class AuthExceptionResolver {
 
-    @Override
-    public ModelAndView resolveException(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) {
-        ModelAndView mv=new ModelAndView(new MappingJackson2JsonView());
-        Map<String,String> map=new HashMap<>(16);
-        map.put("status","error");
-        mv.addAllObjects(map);
-        return mv;
+    public static final String DEFAULT_ERROR_VIEW = "error";
+
+    @ExceptionHandler(value = Exception.class)
+    public ModelAndView defaultErrorHandler(HttpServletRequest req, Exception e) throws Exception {
+        ModelAndView mav = new ModelAndView();
+        mav.addObject("exception", e);
+        mav.addObject("url", req.getRequestURL());
+        mav.setViewName(DEFAULT_ERROR_VIEW);
+        return mav;
     }
+
 }

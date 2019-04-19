@@ -1,0 +1,292 @@
+17:30:24.598 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 2788 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+17:30:24.602 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+17:30:25.849 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+17:30:25.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:30:25.903 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:30:25.931 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+17:30:26.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3669c218] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:30:26.668 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:30:26.687 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:30:26.700 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:30:26.700 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+17:30:26.820 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:30:26.821 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2141 ms
+17:30:27.205 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:30:27.384 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:30:27.493 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:30:28.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:30:28.092 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:30:28.097 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 4.288 seconds (JVM running for 5.539)
+17:30:37.631 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:30:37.632 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:30:37.642 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+17:34:25.982 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 17068 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+17:34:25.986 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+17:34:26.863 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+17:34:26.934 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:34:26.937 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:34:26.973 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+17:34:27.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2cd0797a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:34:27.899 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:34:27.916 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:34:27.928 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:34:27.928 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+17:34:28.106 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:34:28.106 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2068 ms
+17:34:28.425 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:34:28.580 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:34:28.658 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:34:29.202 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:34:29.229 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:34:29.234 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 3.916 seconds (JVM running for 4.701)
+17:34:39.118 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:34:39.119 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:34:39.127 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+17:47:56.486 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+17:48:55.309 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+17:54:10.661 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+17:56:06.336 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+17:57:15.768 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+17:58:34.058 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 11672 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+17:58:34.063 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+17:58:34.979 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+17:58:35.049 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:58:35.054 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:58:35.087 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+17:58:35.585 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5809ca9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:58:36.033 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:58:36.055 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:58:36.067 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:58:36.067 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+17:58:36.177 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:58:36.178 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2063 ms
+17:58:36.627 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:58:36.811 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:58:36.952 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:58:37.571 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:58:37.609 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:58:37.614 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 4.241 seconds (JVM running for 5.28)
+17:58:41.485 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:58:41.486 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:58:41.497 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+17:58:41.547 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+18:00:27.323 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+18:02:38.338 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+18:04:35.058 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'state' is not present]
+18:08:02.014 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 13864 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:08:02.018 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:08:03.051 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:08:03.115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:08:03.119 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:08:03.152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+18:08:03.610 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef79b091] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:08:04.075 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:08:04.095 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:08:04.108 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:08:04.108 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:08:04.287 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:08:04.289 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2200 ms
+18:08:04.694 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:08:04.907 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:08:05.045 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:08:05.650 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:08:05.690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:08:05.698 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 4.366 seconds (JVM running for 5.354)
+18:19:23.916 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:19:23.917 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:19:23.928 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+18:20:04.944 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 8180 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:20:04.948 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:20:05.864 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:20:05.904 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:20:05.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:20:05.930 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+18:20:06.256 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb0b8a27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:20:06.568 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:20:06.584 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:20:06.597 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:20:06.597 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:20:06.722 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:20:06.722 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1714 ms
+18:20:07.040 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:20:07.211 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:20:07.312 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:20:07.748 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:20:07.781 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:20:07.788 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 3.416 seconds (JVM running for 4.301)
+18:21:17.860 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 7500 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:21:17.864 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:21:18.811 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:21:18.868 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:21:18.871 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:21:18.893 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+18:21:19.212 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5361c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:21:19.542 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:21:19.559 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:21:19.571 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:21:19.572 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:21:19.686 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:21:19.686 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1767 ms
+18:21:20.025 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:21:20.174 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:21:20.274 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:21:20.733 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:21:20.769 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:21:20.773 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 3.507 seconds (JVM running for 4.513)
+18:21:38.242 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:21:38.243 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:21:38.255 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+18:23:39.677 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 3200 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:23:39.683 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:23:40.636 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:23:40.674 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:23:40.677 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:23:40.711 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+18:23:41.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c31d000] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:23:41.354 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:23:41.381 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:23:41.390 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:23:41.391 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:23:41.519 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:23:41.519 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1775 ms
+18:23:41.869 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:23:42.072 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:23:42.165 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:23:42.675 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:23:42.700 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:23:42.704 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 3.7 seconds (JVM running for 4.654)
+18:24:56.567 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:24:56.568 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:24:56.577 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+18:27:07.956 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 4036 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:27:07.959 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:27:09.002 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:27:09.055 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:27:09.059 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:27:09.095 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+18:27:09.585 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc221691] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:27:10.124 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:27:10.149 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:27:10.161 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:27:10.161 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:27:10.342 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:27:10.346 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2311 ms
+18:27:10.770 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:27:10.974 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:27:11.111 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:27:11.691 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:27:11.724 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:27:11.731 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 4.489 seconds (JVM running for 5.495)
+18:27:18.291 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:27:18.292 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:27:18.303 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+18:28:34.066 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 12812 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:28:34.069 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:28:35.054 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:28:35.099 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:28:35.101 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:28:35.124 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+18:28:35.454 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7de35d56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:28:35.833 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:28:35.847 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:28:35.858 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:28:35.859 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:28:35.993 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:28:35.994 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1871 ms
+18:28:36.346 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:28:36.485 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:28:36.579 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:28:37.062 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:28:37.089 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:28:37.093 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 3.663 seconds (JVM running for 4.565)
+18:28:41.245 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:28:41.246 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:28:41.257 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+18:31:19.459 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 12260 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:31:19.463 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:31:20.452 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:31:20.515 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:31:20.517 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:31:20.558 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+18:31:20.979 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5425a3d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:31:21.425 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:31:21.448 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:31:21.459 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:31:21.459 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:31:21.614 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:31:21.615 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2091 ms
+18:31:21.998 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:31:22.177 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:31:22.289 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:31:22.946 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:31:22.979 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:31:22.987 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 4.22 seconds (JVM running for 5.205)
+18:31:42.232 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:31:42.234 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:31:42.242 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+18:37:41.740 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 9452 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:37:41.745 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:37:42.694 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:37:42.746 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:37:42.748 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:37:42.771 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+18:37:43.138 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19da1be9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:37:43.488 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:37:43.505 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:37:43.515 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:37:43.516 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:37:43.673 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:37:43.674 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1875 ms
+18:37:44.040 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:37:44.178 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:37:44.292 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:37:44.792 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:37:44.819 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:37:44.824 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 3.708 seconds (JVM running for 4.606)
+18:38:10.806 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:38:10.807 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:38:10.819 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+18:39:12.941 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 6404 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:39:12.946 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:39:13.846 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:39:13.913 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:39:13.917 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:39:13.971 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+18:39:14.310 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44ea2f22] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:39:14.704 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:39:14.725 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:39:14.735 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:39:14.735 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:39:14.839 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:39:14.840 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1834 ms
+18:39:15.202 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:39:15.378 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:39:15.488 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:39:15.971 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:39:16.010 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:39:16.017 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 3.732 seconds (JVM running for 4.805)
+18:39:18.955 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:39:18.956 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:39:18.963 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+18:52:26.944 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 15312 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+18:52:26.947 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+18:52:27.942 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[red.rock.homework4]' package. Please check your configuration.
+18:52:27.996 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+18:52:28.000 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+18:52:28.032 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+18:52:28.504 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c33a529c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:52:29.025 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:52:29.051 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:52:29.070 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:52:29.071 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+18:52:29.241 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:52:29.241 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2232 ms
+18:52:29.665 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+18:52:29.854 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+18:52:29.976 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+18:52:30.578 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:52:30.626 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:52:30.636 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 4.423 seconds (JVM running for 5.53)
+18:52:36.600 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:52:36.601 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:52:36.613 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms

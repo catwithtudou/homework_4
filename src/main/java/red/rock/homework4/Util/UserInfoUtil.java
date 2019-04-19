@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 public class UserInfoUtil {
 
 
-    public static String GetCode="https://open.weixin.qq.com/connect/oauth2/authorize?appid=%s&redirect_uri=%s&response_type=code&scope=%s&state=STAT#wechat_redirect";
+    public static String GetCode="https://open.weixin.qq.com/connect/oauth2/authorize?appid=%s&redirect_uri=%s&response_type=code&scope=%s&state=STATE#wechat_redirect";
         /**
              * 获取code地址
              * @param APPID
