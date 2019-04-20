@@ -19,7 +19,7 @@ public class ScheduleService {
     @Autowired
     UserMapper userMapper;
 
-    @Scheduled(cron = "0 0 24 * * ?")
+    @Scheduled(cron = "0 0 6 * * ?")
     public void refreshCount(){
       userMapper.refreshUserCount();
     }

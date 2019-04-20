@@ -18,14 +18,15 @@ import java.util.List;
 @Service
 public class TeamService {
 
+
     @Autowired
-    TeamMapper teamMapper;
+    private  TeamMapper teamMapper;
 
     /**
      * 得到team的所有信息
      * @return Team
      */
-    public List<Team> getAllTeam(){
+    public  List<Team> getAllTeam(){
         List<Team> teams=teamMapper.getAllTeam();
         return teams;
     }
@@ -53,4 +54,6 @@ public class TeamService {
         }
         return false;
     }
+
+
 }

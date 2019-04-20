@@ -39,6 +39,7 @@ public class RedirectController {
     private static final String MYURL="http://tudou.ngrok.xiaomiqiu.cn";
 
 
+
    @RequestMapping("/getUser")
    public void getUserInofmation(HttpServletResponse response)throws IOException {
        String REDIRECT_URL=MYURL+"/url";
@@ -103,7 +104,7 @@ public class RedirectController {
                                 user=userService.getUser(user.getOpenid());
                             }
                             session.setAttribute("user",user);
-                            servletResponse.sendRedirect("/vote");
+                            servletResponse.sendRedirect("/voteteam");
                             return "授权成功";
                         }catch (Exception e){
                             e.printStackTrace();

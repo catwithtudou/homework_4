@@ -22,7 +22,9 @@ import java.util.List;
 public class TeamController {
 
     @Autowired
-    TeamService teamService;
+    private  TeamService teamService;
+
+
 
     @RequestMapping("/getAllTeam")
     public List<Team> getAllTeamInformation(){
@@ -40,4 +42,5 @@ public class TeamController {
     public String uploadTeamPhoto(){
         return null;
     }
+
 }

@@ -24,7 +24,7 @@ import java.util.Date;
 public class UserService {
 
     @Autowired
-    private UserMapper userMapper;
+    private  UserMapper userMapper;
 
     @Autowired
     private TeamMapper teamMapper;
@@ -39,7 +39,7 @@ public class UserService {
      * @param user
      * @return boolean
      */
-    public void registerUser(User user){
+    public  void registerUser(User user){
         userMapper.addUser(user);
     }
 
@@ -85,5 +85,6 @@ public class UserService {
         }
         return false;
     }
+
 
 }

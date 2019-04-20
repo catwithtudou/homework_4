@@ -12,7 +12,7 @@ import lombok.Data;
 @Data
 public class User {
 
-    int id;
+   private int id;
     private String openid;
     private String nickname;
     private String sex;

@@ -1,6 +1,7 @@
 package red.rock.homework4.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,11 +25,14 @@ public class VoteController {
 
 
     @RequestMapping("/vote")
-    public String vote(@RequestParam(name="entityId")int entityId, HttpSession session){
+    public String vote(@RequestParam(name="entityId" ,required = false)int entityId, HttpSession session){
         User user= (User) session.getAttribute("user");
         String openid=user.getOpenid();
         String nickname=user.getNickname();
         int uid=user.getId();
+        if(openid==null){
+            return "请登录后再试";
+        }
         if(userService.isEnough(openid)){
             if(userService.voteTeam(uid,entityId)){
                 return nickname+"投票成功";
@@ -36,4 +40,6 @@ public class VoteController {
         }
         return nickname+"投票失败,请检查剩余票数";
     }
+
+
 }

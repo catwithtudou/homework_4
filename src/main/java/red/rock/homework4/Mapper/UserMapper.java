@@ -29,7 +29,7 @@ public interface UserMapper {
      * @param openid
      * @return String
      */
-    @Select("select * form user_info where openid=#{openid}")
+    @Select("select * from user_info where openid=#{openid}")
     @Results({
             @Result(property = "id",column = "id"),
             @Result(property = "openid",column = "openid"),

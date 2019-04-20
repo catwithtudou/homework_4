@@ -13,9 +13,9 @@ import lombok.Data;
 @Data
 public class Team {
 
-    int id;
+    private int id;
     private String name;
     private String information;
     private String label;
-    int count;
+    private int count;
 }

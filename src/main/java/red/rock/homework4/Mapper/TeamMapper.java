@@ -32,7 +32,7 @@ public interface TeamMapper {
      * @param
      * @return Team
      */
-    @Select("select * from team_info}")
+    @Select("select * from team_info ")
     @Results({
             @Result(property = "id", column = "id"),
             @Result(property = "name", column = "name"),
