@@ -1,8 +1,12 @@
 package red.rock.homework4.Controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import red.rock.homework4.Entity.AccessToken;
+import red.rock.homework4.Service.AccessTokenService;
 import red.rock.homework4.Util.CheckUtil;
+import red.rock.homework4.Util.GetAccessTokenUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,6 +23,8 @@ import java.io.IOException;
 @RestController
 public class BasicController {
 
+    @Autowired
+    private AccessTokenService accessTokenService;
 
     @RequestMapping("/weixin")
     public String LoginController(HttpServletRequest request, HttpServletResponse response)
@@ -32,5 +38,11 @@ public class BasicController {
             return echostr;
         }
         return null;
+    }
+
+    @RequestMapping("/getAccessToken")
+    public String getAccessToken(){
+        boolean flag=accessTokenService.saveAccessToken();
+        return accessTokenService.getAccessToken().getAccessToken();
     }
 }

@@ -1,0 +1,43 @@
+09:41:15.598 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 17612 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+09:41:15.601 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+09:41:16.846 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:41:16.848 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:41:16.914 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+09:41:17.451 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b6241bf5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:41:17.926 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:41:17.950 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:41:17.961 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:41:17.962 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+09:41:18.126 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:41:18.126 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2444 ms
+09:41:18.284 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:41:18.483 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:41:18.947 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:41:19.100 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+09:41:19.559 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:41:19.684 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:41:19.721 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:41:19.726 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 4.877 seconds (JVM running for 5.85)
+09:54:59.385 [main] INFO  r.r.homework4.Homework4Application - Starting Homework4Application on DESKTOP-1E2HK3G with PID 10696 (C:\code\java\homework_4\target\classes started by tudou in C:\code\java\homework_4)
+09:54:59.391 [main] INFO  r.r.homework4.Homework4Application - No active profile set, falling back to default profiles: default
+09:55:00.755 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:55:00.759 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:55:00.833 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 0 repository interfaces.
+09:55:01.334 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cdfcd976] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:55:01.818 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:55:01.840 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:55:01.864 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:55:01.865 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+09:55:02.015 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:55:02.015 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2520 ms
+09:55:02.150 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:55:02.371 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:55:02.889 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:55:03.077 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+09:55:03.640 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:55:03.735 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:55:03.769 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:55:03.774 [main] INFO  r.r.homework4.Homework4Application - Started Homework4Application in 5.222 seconds (JVM running for 6.64)
+09:55:26.869 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:55:26.870 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:55:26.884 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms

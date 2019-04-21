@@ -13,4 +13,5 @@ import lombok.Data;
 public class AccessToken {
     private String accessToken;
     private int expiresIn;
+    private String timestamp;
 }

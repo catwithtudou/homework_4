@@ -50,14 +50,4 @@ public class RedisUtil {
      */
     private static  boolean TEST_ON_BORROW=true;
 
-    private static RedisProperties.Jedis jedisPool=null;
-
-    /**
-     * 初始化
-     */
-    static {
-        try{
-
-        }
-    }
 }
