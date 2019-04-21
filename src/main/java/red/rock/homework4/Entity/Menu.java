@@ -7,10 +7,11 @@ import lombok.Data;
  *
  * @author tudou
  * @version 1.0
- * @date 2019/4/21 10:12
+ * @date 2019/4/21 10:13
  **/
 @Data
-public class ViewButton extends Button {
+public class Menu {
 
-    private String url;
+    private Button[] button;
+
 }

@@ -7,6 +7,7 @@ import red.rock.homework4.Entity.AccessToken;
 import red.rock.homework4.Service.AccessTokenService;
 import red.rock.homework4.Util.CheckUtil;
 import red.rock.homework4.Util.GetAccessTokenUtil;
+import red.rock.homework4.Util.MenuUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -44,5 +45,17 @@ public class BasicController {
     public String getAccessToken(){
         boolean flag=accessTokenService.saveAccessToken();
         return accessTokenService.getAccessToken().getAccessToken();
+    }
+
+    @RequestMapping("/createMenu")
+    public String createMenu(){
+        String accessToken=accessTokenService.getAccessToken().getAccessToken();
+        System.out.println(accessToken);
+        String menu= MenuUtil.initMenu();
+        boolean flag=MenuUtil.createMenu(accessToken,menu);
+        if(flag){
+            return "创建菜单成功";
+        }
+        return "创建菜单失败";
     }
 }

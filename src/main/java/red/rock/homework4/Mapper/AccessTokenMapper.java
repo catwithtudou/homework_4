@@ -1,8 +1,6 @@
 package red.rock.homework4.Mapper;
 
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 import red.rock.homework4.Entity.AccessToken;
 
@@ -30,5 +28,10 @@ public interface AccessTokenMapper {
      * @return AccessToken
      */
     @Select("select   *   from   test   order   by   id   desc   limit   1")
+    @Results({
+            @Result(property = "accessToken",column = "access_token"),
+            @Result(property = "timestamp",column = "timestamp"),
+            @Result(property = "expiresIn",column = "expiresIn"),
+    })
     AccessToken getAccessToken();
 }
